@@ -1,0 +1,368 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.menu{
+    background-color: dimgray;
+    height: 100%;
+    margin: 0;
+}
+
+.opcoes{
+    min-height: 700px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-h2{
+        background: none;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;  
+        width: 150px;
+}
+
+.linknoite{
+    display: 'inline-block';
+    text-decoration: none;
+    color: inherit;
+    font-size: '1.5em';
+    margin: '0';
+    
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+.office1 {
+    height: 100vh; /* 100% da altura da viewport */
+    width: 300vh;
+    background-image: url('/src/assets/fnafoffice1.jpg'); 
+    background-size: cover; /* Ajusta o tamanho para cobrir todo o container */
+    background-position: center; /* Centraliza a imagem */
+    display: flex;
+    color: #fff; /* Cor do texto para melhor legibilidade */
+}
+
+.ladoesq{
+    opacity: 0%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100px; /* Ajuste a largura conforme necessário */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    cursor: pointer;
+}
+
+.ladodir{
+    opacity: 0%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100px; /* Ajuste a largura conforme necessário */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    cursor: pointer;
+}
+
+.btncamera{
+    color: blueviolet;
+    opacity: 50%;
+    margin-left: 25vh;
+    position: fixed;
+    bottom: 0;
+    height:10%;
+    width: 1200px; /* Ajuste a largura conforme necessário */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    cursor: pointer;
+    z-index: 2;
+}
+.btncamera2{
+    color: blueviolet;
+    opacity: 50%;
+    margin-left: 25vh;
+    position: fixed;
+    height:20%;
+    width: 500px; /* Ajuste a largura conforme necessário */
+    color: #fff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    cursor: pointer;
+    z-index: 2;
+}
+
+.btnportae{
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-left: 5vh;
+    margin-top: 50vh;
+    cursor: pointer;
+}
+
+.btnportad{
+    height: 70px;
+    width: 70px;
+    border: none;
+    margin-left: 170vh;
+    margin-top: 50vh;
+    margin-right: 5vh;
+    cursor: pointer;
+}
+
+.portae{
+    margin-top: 5vh;
+    width: 200px;
+    height: 700px;
+    background-color:gray;
+}
+
+.portad{
+    margin-top: 5vh;
+    width: 200px;
+    height: 700px;
+    background-color:gray;
+}
+
+.portabtn{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-left: 18vh;
+}
+
+.bateria{
+    margin-left: 10vh;
+    margin-top: 80vh;
+    position: fixed;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.horario{
+    margin-left: 10vh;
+    margin-top: 10vh;
+    position: fixed;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.porcentagem{
+    max-width: 0px;
+    white-space: nowrap;
+}
+
+.usando{
+    margin-left: 10vh;
+    margin-top: 75vh;
+    position: fixed;
+    font-size: 30px;
+}
+
+#imgcamera{
+    background-image: url(/src/assets/testecamera.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo com transparência para um efeito de sobreposição */
+    background-size: cover;
+    z-index: 1;
+}
+
+.trocacam{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70vw;
+    margin-top: 50vh;
+}
+
+.linha1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.linha2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.linha3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.linha4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.cam1{
+    display: flex;
+    justify-content: space-around;
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.cam2{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 150px;
+}
+.cam3{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 300px;
+}
+.cam4{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.cam5{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 150px;
+}
+.cam6{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 300px;
+}
+.cam7{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.cam8{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 150px;
+}
+.cam9{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 300px;
+}
+.cam10{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+.cam11{
+    opacity: 100%;
+    margin-left: 25vh;
+    position: fixed;
+    height:5%;
+    width: 50px; 
+    color:black; 
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 2;
+    margin-left: 150px;
+}
